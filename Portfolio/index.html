@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Portfolio</title>
+<title>Portfolio</title>
 
   <link rel="stylesheet" href="sass/style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
- <script src="script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <script src="script.js"></script>
 
 </head>
 <body>
@@ -13,17 +12,18 @@
   <div class="resumeBox">
   	<h1 class="name">Zachary Hitchens</h1>   
   	<p class="contactInfo">Philadelphia, PA</p>
-  	<wrapper class="buttons">
-  	<button class="experience-button">Experience</button>
-  	<button class="skills-button">Skills</button>	
-  	<button class="qualifications-button">Qualifications</button>	
-  	</wrapper>
-  	  <wrapper class="experienceSection">
-	  <h2 class="section">Experience</h2>
+  	<a href="https://github.com/thecleanmonk" class="contactInfo github">https://github.com/thecleanmonk</a>
+  	<div class="buttons">
+	  	<button href="#" id="experience-button">Experience</button>
+	  	<button href="#" id="skills-button">Skills</button>	
+	  	<button id="qualifications-button">Qualifications</button>	
+  	</div>
+  	<div class="expBox">
+	<h2 class="expSection">Experience</h2>
+  	<div id="experienceSection">
 	  <!--QA-->
-	  <p class="position">Quality Assurance Technician<span class="location">&nbsp;--&nbsp;Quattro Direct<br></span>
+	  <h2 class="position">Quality Assurance Technician<span class="location">&nbsp;--&nbsp;Quattro Direct<br></span></h2>
 	  <p class="address">Berwyn PA</p>
-	  </p>
 	  <p class="dates">August 2017 to Present</p>
 	  <ul>
 		  <li>Created a Quality Assurance plan with associated documentation for an organization of 50+ employees.</li>
@@ -32,10 +32,11 @@
 		  <li>Developed In house emails for our Quarterly newsletter and other events using the Foundation Framework for Emails</li>
 		  <li>Created Test plan&rsquo;s for landing pages as well as Email Campaigns and lead the execution and resolution of test cases.</li>
 	  </ul>
-	  </wrapper>
-	  <!--Web Dev Section-->
-	  <p class="position">Contract Web Developer<span class="location">&nbsp;--&nbsp;FourFront LLC</span>
-	  </p>
+	</div>
+	 <!--Web Dev Section-->
+	<div id="fourfront">
+	  <h2 class="position">Contract Web Developer<span class="location">&nbsp;--&nbsp;FourFront LLC</span>
+	  </h2>
 	  <p class="address">East Falls PA</p>	  
 	  <p class="dates">April 2017 to June 2017</p>
 	  <ul>
@@ -44,9 +45,11 @@
 		  <li>Created mobile responsive WordPress themes</li>
 		  <li>Worked with MySQL to query client production database on request for report or inquiries.</li>
 	  </ul>
+	 </div>
+	 <div id="brio"
 	  <!--Jr Software Developer-->
-	  <p class="position">Jr Software Developer<span class="location">&nbsp;--&nbsp;Brio Solutions</span>
-	  </p>
+	  <h2 class="position">Jr Software Developer<span class="location">&nbsp;--&nbsp;Brio Solutions</span>
+	  </h2>
 	  <p class="address">Ft Washington PA</p>	  
 	  <p class="dates">August 2016 to April 2017</p>
 	  <ul>
@@ -56,8 +59,58 @@
 		  <li>Blogged Biweekly at http://www.briosolutions.com/blog</li>
 		  <li>Performed Weekly QA duties on all projects</li>
 	  </ul>
-
+	  </div>
   </div> 
+      </div>
 </div>
 </body>
 </html>
+<script>
+	var count = 0;
+ 	$('#experience-button').on('click', function() {
+    if ($('#experienceSection').css('opacity') == 0) {
+        $('#experienceSection').css('opacity', 1);
+    }
+    if(count == 1){
+    	$('#fourfront').css('opacity', 1);
+    	$('#experienceSection').css('opacity', 0);
+    }
+    else if(count == 2){
+    	$('#fourfront').css('opacity', 0);    
+    	$('#experienceSection').css('opacity', 0);
+    	$('#brio').css('opacity', 1);
+    }
+    else if(count == 3){
+    	$('#brio').css('opacity', 0);
+    	count = 0;
+    }
+    count++;
+});
+ </script>
+ <script>
+	var iter = 0;
+ 	$('#skills-button').on('click', function() {
+    if ($('.expSection').css('opacity') == 1) {
+    	$('.expSection').css('opacity',0);
+    	function show_popup(){
+        	$('.expSection').text('Skills');    		
+    		$('.expSection').css('opacity',1);
+   		};
+   	window.setTimeout( show_popup, 500 ); // 5 seconds
+    }
+    if(iter == 1){
+    	$('#fourfront').css('opacity', 1);
+    	$('#experienceSection').css('opacity', 0);
+    }
+    else if(iter == 2){
+    	$('#fourfront').css('opacity', 0);    
+    	$('#experienceSection').css('opacity', 0);
+    	$('#brio').css('opacity', 1);
+    }
+    else if(iter == 3){
+    	$('#brio').css('opacity', 0);
+    	iter = 0;
+    }
+    iter++;
+});
+ </script>
