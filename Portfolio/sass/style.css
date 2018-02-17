@@ -1,0 +1,130 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web);
+html {
+  width: 100%;
+  height: 100%; }
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 14px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
+button {
+  width: 100px;
+  padding: 1%;
+  color: white;
+  font-weight: bold;
+  background-color: rgba(79, 128, 204, 0.9);
+  border-radius: 5px;
+  border: 1px solid black; }
+  button:focus {
+    outline: 0;
+    background-color: black;
+    transition: all 1s linear; }
+
+li {
+  margin-top: 1em;
+  font-size: 12px;
+  max-width: 360px; }
+
+.location {
+  font-size: 12px; }
+
+.dates {
+  font-size: 10px; }
+
+#container {
+  display: flex;
+  display: -webkit-flex;
+  /* Safari 8 */
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  /* Safari 8 */
+  justify-content: center;
+  -webkit-justify-content: center;
+  /* Safari 8 */
+  line-height: 1.1; }
+
+a {
+  color: black;
+  text-decoration: none; }
+
+.resumeBox {
+  position: relative;
+  border-radius: 15px;
+  border: 1px solid black;
+  width: 600px;
+  height: 900px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 10px; }
+  .resumeBox .name, .resumeBox .contactInfo, .resumeBox h1, .resumeBox h2, .resumeBox .section, .resumeBox .section p, .resumeBox .dates, .resumeBox button, .resumeBox .position {
+    margin-top: 2%;
+    margin-left: 2%; }
+
+.position {
+  border-bottom: solid 1px white;
+  display: inline;
+  font-weight: bold; }
+
+body {
+  width: 100wh;
+  height: 90vh;
+  color: #fff;
+  background: linear-gradient(-45deg, #b7deed, #71ceef, #21b4e2, #b7deed);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite; }
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+.name {
+  width: 100%;
+  margin: 0;
+  text-align: center; }
+
+.address {
+  padding-left: 2%;
+  font-size: 12px; }
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.contactInfo {
+  text-align: center; }
+
+.experience {
+  display: block; }
+
+@media screen and (max-width: 450px) {
+  .resumeBox {
+    height: 1000px; }
+
+  .position {
+    border-bottom: 0px solid white; } }
+
+/*# sourceMappingURL=style.css.map */
