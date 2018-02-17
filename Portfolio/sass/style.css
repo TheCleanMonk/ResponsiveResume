@@ -64,12 +64,11 @@ ul {
   border-radius: 15px;
   border: 1px solid black;
   width: 600px;
-  height: 600px;
+  height: 500px;
   background-color: rgba(0, 0, 0, 0.5);
-  margin: 10px; }
+  margin-top: 300px; }
   .resumeBox .name, .resumeBox .contactInfo, .resumeBox h1, .resumeBox h2, .resumeBox .section, .resumeBox .section p, .resumeBox .dates, .resumeBox button, .resumeBox .position {
-    margin-top: 2%;
-    margin-left: 2%; }
+    margin: 2%; }
 
 .position {
   border-bottom: solid 1px white;
@@ -134,16 +133,14 @@ body {
   display: block; }
 
 .expSection, .skillSection {
+  opacity: 0;
+  display: block;
   text-align: center;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -ms-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out; }
-
-.skillSection {
-  opacity: 0;
-  display: block; }
 
 .expBox {
   display: block;

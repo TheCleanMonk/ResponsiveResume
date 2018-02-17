@@ -65,12 +65,11 @@ ul{
   border-radius:15px;
   border: 1px solid black;
   width:              600px;
-  height:             600px;
+  height:             500px;
   background-color:   rgba(0, 0, 0,0.5);
-  margin:             10px;        
+  margin-top: 300px;
   & .name , .contactInfo, h1,h2,.section,.section p,.dates,button,.position{
-  	margin-top: 2%;
-  	margin-left:2%;
+  	margin: 2%;
   }
 
 }
@@ -158,6 +157,8 @@ body {
 	display:block;
 }
 .expSection,.skillSection{
+	opacity:0;
+	display:block;
 	text-align:center;
 	-webkit-transition: all 0.5s ease-in-out;
 	-moz-transition: all 0.5s ease-in-out;
@@ -165,10 +166,7 @@ body {
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
-.skillSection{
-	opacity:0;
-	display:block;
-}
+
 .expBox{
 	display:block;
 	margin: 0 auto;
