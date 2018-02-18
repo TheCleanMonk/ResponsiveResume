@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web);
+
 html {
     width: 100%;
     height: 100%;    
@@ -10,25 +11,41 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
+    color: #fff;
+	background: linear-gradient(-45deg, rgba(113,206,239,1), rgba(113,206,239,1),rgba(33,180,226,1), rgba(183,222,237,1));
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
 }
+// Firefox gradient button fix
 
 button{
 	width:100px;
 	padding:1%;
 	color:white;
 	font-weight:bold;
-	background-color: rgba(79, 128, 204,0.9);
+	background: linear-gradient(-45deg, rgba(183,222,237,1), rgba(113,206,239,1),rgba(33,180,226,1), rgba(183,222,237,1));
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease-in-out infinite;
+	-moz-animation: Gradient 15s ease-in-out infinite;
+	animation: Gradient 15s ease-in-out infinite;
 	border-radius:5px;
 	border: 1px solid black;
-	&:focus{
-		outline:0;
-		background: linear-gradient(-45deg, rgba(183,222,237,1), rgba(113,206,239,1),rgba(33,180,226,1), rgba(183,222,237,1));
-		background-size: 400% 400%;
-		-webkit-animation: Gradient 15s ease-in-out infinite;
-		-moz-animation: Gradient 15s ease-in-out infinite;
-		animation: Gradient 15s ease-in-out infinite;
-	}
-
+}
+.addGradientExp{
+	background: linear-gradient(-45deg, #ffb76b 0%,#ffa73d 50%,#ff7c00 51%,#e2045d 100%);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease-in-out infinite;
+	-moz-animation: Gradient 15s ease-in-out infinite;
+	animation: Gradient 15s ease-in-out infinite;
+}
+.addGradientSkills{
+	background: linear-gradient(-45deg, #7cd8ea 0%,#41fc98 100%);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease-in-out infinite;
+	-moz-animation: Gradient 15s ease-in-out infinite;
+	animation: Gradient 15s ease-in-out infinite;
 }
 li{
 	margin-top:1em;
@@ -36,6 +53,14 @@ li{
 	max-width:360px;
 }
 
+a{
+	color:white;
+	text-decoration:none;
+}
+ul{
+	position:relative;
+	right:27px;
+}
 .location { 
 	font-size:12px; 
 }
@@ -52,20 +77,13 @@ li{
   -webkit-justify-content: center;       /* Safari 8 */
   line-height: 1.1;  
 }
-a{
-	color:white;
-	text-decoration:none;
-}
-ul{
-	position:relative;
-	right:27px;
-}
 .resumeBox {
   position:relative;
   border-radius:15px;
   border: 1px solid black;
   width:              600px;
   height:             500px;
+  max-width:90%;
   background-color:   rgba(0, 0, 0,0.5);
   margin-top: 300px;
   & .name , .contactInfo, h1,h2,.section,.section p,.dates,button,.position{
@@ -80,54 +98,6 @@ ul{
    	 font-weight:bold;
 
   }
-
-body {
-	width: 100wh;
-	height: 90vh;
-	color: #fff;
-	background: linear-gradient(-45deg, gray, rgba(113,206,239,1),rgba(33,180,226,1), rgba(183,222,237,1));
-	background-size: 400% 400%;
-	-webkit-animation: Gradient 15s ease infinite;
-	-moz-animation: Gradient 15s ease infinite;
-	animation: Gradient 15s ease infinite;
-
-}
-
-@-webkit-keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
-}
-
-@-moz-keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
-}
-
-@keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
-}
 
 .name{
 	width:100%;
@@ -165,11 +135,57 @@ body {
     -ms-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
+    transition-delay: 0.5s;
 }
 
 .expBox{
 	display:block;
 	margin: 0 auto;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+.skillHeader{
+	opacity:0;
+	position:relative;
+	bottom:1.6em;
+	display:block;
+	text-align:center;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    transition-delay: 0.5s;
+    }
+.skillBox{
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+    position:relative;
+    opacity:0;
+    -webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    transition-delay: 0.5s;
+}
+.skillBox li{
+	list-style-type: none;
+	display:inline-block;
+}
+
+.skillset1 li{
+	font-size:20px;
+}
+.skillset2 li{
+	font-size:20px;
+}
+.skillset3 li{
+	font-size:20px;
 }
 
 #experienceSection,#fourfront,#brio
@@ -182,7 +198,44 @@ body {
     -ms-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
+    transition-delay: 0.5s;
 }
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
 @media screen and (max-width: 450px) {
     .resumeBox {
   		height:550px;

@@ -20,6 +20,7 @@
   	</div>
   	<div class="expBox">
 	<h2 class="expSection">Experience</h2>
+	<h2 class="skillHeader">Skills</h2>
   	<div id="experienceSection">
 	  <!--QA-->
 	  <h2 class="position">Quality Assurance Technician<span class="location">&nbsp;--&nbsp;Quattro Direct<br></span></h2>
@@ -61,17 +62,53 @@
 	  </ul>
 	  </div>
   </div> 
-      </div>
+  <div class="skillBox">
+  	<ul class="skillset1">
+  		<li>Email Development</li>
+   		<li>Front End Development</li>
+  		<li>Quality Assurance</li>
+  		<li>QA Automation</li>
+  		<li>Linux Terminal</li>
+  		<li>C#</li>
+  	</ul>
+  	<ul class="skillset2">
+  		<li>Python</li>
+   		<li>PHP</li>
+  		<li>JavaScript</li>
+  		<li>CSS/Sass/less</li>
+  		<li>Ruby</li>
+  		<li>React.JS</li>
+  	</ul>
+  	  	<ul class="skillset3">
+  		<li>NodeJS</li>
+   		<li>Foundation 6</li>
+  		<li>Bootstrap</li>
+  		<li>WordPress</li>
+  		<li>ASP.NET 4.5</li>
+  		<li>Watir</li>
+  	</ul>
+  </div>
+  </div>
 </div>
 </body>
 </html>
 <script>
+
+// change all of these to import classes onclick rather than applying direct styles 
+// also switch these if else statements to swtich
 	var count = 0;
  	$('#experience-button').on('click', function() {
+ 	if(iter > 0){
+ 		iter = 0;
+ 	}
     if ($('#experienceSection').css('opacity') == 0) {
         $('#experienceSection').css('opacity', 1);
         $('.expSection').css('opacity', 1);
+        $('#experience-button').addClass('addGradientExp');
+        $('.skillBox').css('opacity', 0); 
+        $('.skillHeader').css('opacity', 0); 
     }
+
     if(count == 1){
     	$('#fourfront').css('opacity', 1);
     	$('#experienceSection').css('opacity', 0);
@@ -91,25 +128,28 @@
  <script>
 	var iter = 0;
  	$('#skills-button').on('click', function() {
+ 	if(count > 0){
+ 		count = 0;
+ 	}
     if ($('.expSection').css('opacity') == 1) {
-    	$('.expSection').css('opacity',0);
-    	function show_popup(){
-        	$('.expSection').text('Skills');    		
-    		$('.expSection').css('opacity',1);
-   		};
-   	window.setTimeout( show_popup, 500 ); // 5 seconds
-    }
-    if(iter == 1){
-    	$('#fourfront').css('opacity', 1);
+    	$('#expBox').css('opacity', 0);    
+        $('#skills-button').addClass('addGradientSkills');
+        $('#fourfront').css('opacity', 0);    
     	$('#experienceSection').css('opacity', 0);
+    	$('#brio').css('opacity', 0);
+    	$('.expSection').css('opacity', 0); 
+    }
+    if(iter == 0){
+    	$('.skillBox').css('opacity', 1); 
+    	$('.skillHeader').css('opacity', 1); 
+
+    	// change this so that on the first click a fade out
+    	// fade in is applied
+    }
+    else if(iter == 1){
+
     }
     else if(iter == 2){
-    	$('#fourfront').css('opacity', 0);    
-    	$('#experienceSection').css('opacity', 0);
-    	$('#brio').css('opacity', 1);
-    }
-    else if(iter == 3){
-    	$('#brio').css('opacity', 0);
     	iter = 0;
     }
     iter++;
