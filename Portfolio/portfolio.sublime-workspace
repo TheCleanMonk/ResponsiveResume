@@ -1,0 +1,533 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cen",
+				"text-center"
+			],
+			[
+				"backgro",
+				"background-color"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"Soc",
+				"SocialIcons"
+			],
+			[
+				"trans",
+				"transparent"
+			],
+			[
+				"text",
+				"text-center"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"click",
+				"click_count"
+			],
+			[
+				"Carou",
+				"Carousel1"
+			],
+			[
+				"Ca",
+				"Carousel2"
+			],
+			[
+				"scro",
+				"scrollHandlerTwo"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "script.js",
+			"settings":
+			{
+				"buffer_size": 317,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 5296,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/style.scss",
+			"settings":
+			{
+				"buffer_size": 5211,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "package control",
+		"selected_items":
+		[
+			[
+				"package control",
+				"Package Control: Install Package"
+			],
+			[
+				"stylus",
+				"Set Syntax: Stylus"
+			],
+			[
+				"install page",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Applications/MAMP/htdocs/Portfolio",
+		"/Applications/MAMP/htdocs/Portfolio/sass"
+	],
+	"file_history":
+	[
+		"/Users/zhitchens/local-dev/email-2018/email_practicum/frogdog_1/src/assets/scss/app.scss",
+		"/Users/zhitchens/local-dev/email-2018/email_practicum/frogdog_1/src/pages/index.html",
+		"/Users/zhitchens/local-dev/email-2018/email_practicum/frogdog_1/src/assets/scss/_settings.scss",
+		"/Users/zhitchens/local-dev/email-2018/email_practicum/frogdog_1/dist/index.html",
+		"/Users/zhitchens/local-dev/email-2018/frogdog_1/src/assets/scss/app.scss",
+		"/Users/zhitchens/local-dev/email-2018/frogdog_1/dist/index.html",
+		"/Users/zhitchens/local-dev/email-2018/frogdog_1/src/pages/index.html",
+		"/Users/zhitchens/local-dev/email-2018/frogdog_1/dist/css/app.css",
+		"/Users/zhitchens/local-dev/email-2018/frogdog_1/node_modules/gulp-uncss/index.js",
+		"/Users/zhitchens/local-dev/email-2018/Frogdog1/node_modules/foundation-emails/scss/components/_typography.scss",
+		"/Users/zhitchens/local-dev/email-2018/Frogdog1/src/assets/scss/template/_template.scss",
+		"/Users/zhitchens/local-dev/email-2018/frogdog_1/src/assets/scss/_settings.scss",
+		"/Users/zhitchens/local-dev/email-2018/Frogdog1/src/assets/scss/app.scss",
+		"/Users/zhitchens/local-dev/email-2018/frogdog_1/node_modules/foundation/scss/foundation.scss",
+		"/Users/zhitchens/local-dev/email-2018/genw/dist/Storm/script.js",
+		"/Users/zhitchens/local-dev/email-2018/genw/dist/Storm/style.css",
+		"/Users/zhitchens/local-dev/email-2018/genw/src/pages/genworth.html",
+		"/Users/zhitchens/local-dev/email-2018/quattro/quattro_winter_2017/quattro_winter/dist/winter.html",
+		"/Users/zhitchens/local-dev/email-2018/quattro/quattro_winter_2017/quattro_winter/dist/index.html",
+		"/Users/zhitchens/local-dev/email-2018/quattro/quattro_winter_2017/quattro_winter/node_modules/inky/lib/makeColumn.js",
+		"/Users/zhitchens/local-dev/email-2018/quattro/quattro_winter_2017/quattro_winter/node_modules/inky/lib/componentFactory.js",
+		"/Users/zhitchens/local-dev/email-2018/quattro/quattro_winter_2017/quattro_winter/src/assets/scss/_settings.scss",
+		"/Users/zhitchens/local-dev/email-2018/quattro/quattro_winter_2017/quattro_winter/dist/css/app.css",
+		"/Users/zhitchens/local-dev/email-2018/quattro/quattro_winter_2017/quattro_winter/src/pages/winter.html",
+		"/Users/zhitchens/local-dev/email-2018/quattro/quattro_winter_2017/quattro_winter/src/pages/marketing.html",
+		"/Users/zhitchens/local-dev/email-2018/quattro/quattro_winter_2017/quattro_winter/src/pages/index.html",
+		"/Users/zhitchens/local-dev/email-2018/quattro/quattro_winter_2017/quattro_winter/dist/assets/img/archive/video_img.jpg",
+		"/Users/zhitchens/Desktop/DubstepShowOfTheDay.html",
+		"/Users/zhitchens/local-dev/email-2018/quattro/q_newsletter/src/layouts/default.html",
+		"/Users/zhitchens/local-dev/email-2018/quattro/q_newsletter/src/assets/scss/_settings.scss",
+		"/Users/zhitchens/local-dev/email-2018/quattro/q_newsletter/dist/css/app.css",
+		"/Users/zhitchens/local-dev/email-2018/quattro/q_newsletter/src/assets/scss/app.scss",
+		"/Users/zhitchens/local-dev/email-2018/quattro/q_newsletter/node_modules/inky/lib/makeColumn.js",
+		"/Users/zhitchens/local-dev/email-2018/quattro/q_newsletter/node_modules/inky/lib/componentFactory.js",
+		"/Users/zhitchens/local-dev/email-2018/quattro/q_newsletter/dist/12-2017.html",
+		"/Users/zhitchens/.rvm/gems/ruby-2.1.1/gems/zucchini-ios-0.7.3/lib/zucchini/reporters/EmailTest/TestEmail/NewPenn3/src/assets/scss/app.scss",
+		"/Users/zhitchens/local-dev/email-2018/quattro_newsletter/src/assets/scss/app.scss",
+		"/Users/zhitchens/.rvm/gems/ruby-2.1.1/gems/zucchini-ios-0.7.3/lib/zucchini/reporters/EmailTest/TestEmail/NewPenn3/dist/index.html",
+		"/Users/zhitchens/.rvm/gems/ruby-2.1.1/gems/zucchini-ios-0.7.3/lib/zucchini/reporters/EmailTest/TestEmail/dist/index.html",
+		"/Users/zhitchens/.rvm/gems/ruby-2.1.1/gems/zucchini-ios-0.7.3/lib/zucchini/reporters/EmailTest/TestEmail/dist/basic.html",
+		"/Users/zhitchens/.rvm/gems/ruby-2.1.1/gems/zucchini-ios-0.7.3/lib/zucchini/reporters/EmailTest/TestEmail/index.html",
+		"/Users/zhitchens/.rvm/gems/ruby-2.1.1/gems/zucchini-ios-0.7.3/lib/zucchini/reporters/EmailTest/TestEmail/src/pages/index.html",
+		"/Users/zhitchens/.rvm/gems/ruby-2.1.1/gems/zucchini-ios-0.7.3/lib/zucchini/reporters/EmailTest/dist/css/app.css",
+		"/Users/zhitchens/.rvm/gems/ruby-2.1.1/gems/zucchini-ios-0.7.3/lib/zucchini/reporters/EmailTest/TestEmail/src/assets/scss/app.scss",
+		"/Users/zhitchens/.rvm/gems/ruby-2.1.1/gems/zucchini-ios-0.7.3/lib/zucchini/reporters/EmailTest/TestEmail/src/partials/index.html",
+		"/Users/zhitchens/.rvm/gems/ruby-2.1.1/gems/zucchini-ios-0.7.3/lib/zucchini/reporters/EmailTest/src/assets/scss/_settings.scss",
+		"/Users/zhitchens/.rvm/gems/ruby-2.1.1/gems/zucchini-ios-0.7.3/lib/zucchini/reporters/EmailTest/TestEmail/src/assets/scss/template/_template.scss",
+		"/Users/zhitchens/.rvm/gems/ruby-2.1.1/gems/zucchini-ios-0.7.3/lib/zucchini/reporters/EmailTest/TestEmail/src/assets/scss/_settings.scss",
+		"/Users/zhitchens/.rvm/gems/ruby-2.1.1/gems/zucchini-ios-0.7.3/lib/zucchini/reporters/EmailTest/dist/hero.html",
+		"/Users/zhitchens/.rvm/gems/ruby-2.1.1/gems/zucchini-ios-0.7.3/lib/zucchini/reporters/EmailTest/dist/test.html",
+		"/Users/zhitchens/.rvm/gems/ruby-2.1.1/gems/zucchini-ios-0.7.3/lib/zucchini/reporters/EmailTest/dist/index.html",
+		"/Users/zhitchens/Downloads/foundation-6.4.2-complete/index.html",
+		"/Users/zhitchens/Downloads/Development/index.html",
+		"/Users/zhitchens/Desktop/index.html",
+		"/Users/zhitchens/Desktop/style.styl",
+		"/Users/zhitchens/Desktop/func.js",
+		"/Users/zhitchens/Desktop/test.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"class=\"socialIcon\"",
+			"<columns ",
+			"button",
+			".uncss",
+			"34px",
+			"34",
+			"newbutton",
+			"button",
+			"button ",
+			"card",
+			"button",
+			"ASSETS",
+			"jpg",
+			"h2",
+			"global-margin",
+			"$global-margin",
+			"left",
+			"ffae00",
+			"font-weight",
+			"global-font-weight",
+			"font-weight",
+			"button",
+			"global-radius",
+			"anchor-color-hover",
+			"color",
+			"redd",
+			" ",
+			"width:",
+			"email",
+			"min",
+			"storm",
+			"/th",
+			"<th",
+			"h3",
+			"class",
+			"<th",
+			"</th>",
+			"<th",
+			"primary-color",
+			"button",
+			"global-radius",
+			"border-radius",
+			"hover",
+			"logotext",
+			"hover",
+			"navitems",
+			"<H2",
+			"<h3",
+			"navitems",
+			"class=\"full_width\" ",
+			"img",
+			"578",
+			"580",
+			"class=\"cente",
+			"580",
+			"<th",
+			"th>",
+			"<th",
+			"th",
+			"border: 1px solid #042434",
+			"042434",
+			"Read up on our remedies",
+			"Read up on our remedies for reigniting the spark!",
+			"button",
+			"p",
+			"; ",
+			"hr",
+			"button",
+			"buttonn",
+			"//",
+			">\n",
+			"text-align:center",
+			".undoreset center",
+			"cite",
+			"<cite(.*?)\\</cite>",
+			"(?s)<cite>(?:(?!</cit>).)*?.*?</cite>",
+			"(?s)<cite>(?:(?!</li>).)*?.*?</cite>",
+			"<cite class",
+			"cite",
+			"http://www.abilitypo.com",
+			"http://ability.dev",
+			"2300",
+			"2000",
+			"'slow'",
+			"questionmark",
+			"women_stats",
+			"question",
+			".title",
+			"title",
+			"js",
+			"fill",
+			"mygradient",
+			"svg",
+			"overflow",
+			";\n",
+			"overflow:",
+			"section",
+			"title",
+			"secondtitle",
+			"lastsection",
+			"relative",
+			"/Users/zhitchens/PycharmProjects/AbilityTesting/",
+			" '",
+			"section",
+			"Positions"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"class=\"socialIcon resizeIcons\"",
+			"<columns class=\"text-center\"",
+			"<td",
+			"</td>",
+			"<td",
+			"",
+			"2100",
+			"2300",
+			"2000",
+			"1000",
+			"2000",
+			"Section",
+			"Title",
+			"SecondTitle",
+			"LastSection",
+			"/Users/zhitchens/PycharmProjects/Testing/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "script.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 317,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5296,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 280.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "sass/style.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5211,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2583.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "portfolio.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"a",
+				"quattro_winter/src/assets/scss/app.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 572.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 186.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

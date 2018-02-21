@@ -12,7 +12,7 @@ body {
   margin: 0;
   padding: 0;
   color: #fff;
-  background: linear-gradient(-45deg, #71ceef, #71ceef, #21b4e2, #b7deed);
+  background: linear-gradient(-45deg, #01e9f5, #18b5d8, #407bc1, #6c4ba6, #840d81);
   background-size: 400% 400%;
   -webkit-animation: Gradient 15s ease infinite;
   -moz-animation: Gradient 15s ease infinite;
@@ -30,20 +30,11 @@ button {
   animation: Gradient 15s ease-in-out infinite;
   border-radius: 5px;
   border: 1px solid black; }
-
-.addGradientExp {
-  background: linear-gradient(-45deg, #ffb76b 0%, #ffa73d 50%, #ff7c00 51%, #e2045d 100%);
-  background-size: 400% 400%;
-  -webkit-animation: Gradient 15s ease-in-out infinite;
-  -moz-animation: Gradient 15s ease-in-out infinite;
-  animation: Gradient 15s ease-in-out infinite; }
-
-.addGradientSkills {
-  background: linear-gradient(-45deg, #7cd8ea 0%, #41fc98 100%);
-  background-size: 400% 400%;
-  -webkit-animation: Gradient 15s ease-in-out infinite;
-  -moz-animation: Gradient 15s ease-in-out infinite;
-  animation: Gradient 15s ease-in-out infinite; }
+  button:focus {
+    outline: 0;
+    color: black; }
+  button:active {
+    background: black; }
 
 li {
   margin-top: 1em;
@@ -81,7 +72,7 @@ ul {
   border-radius: 15px;
   border: 1px solid black;
   width: 600px;
-  height: 500px;
+  height: 600px;
   max-width: 90%;
   background-color: rgba(0, 0, 0, 0.5);
   margin-top: 300px; }
@@ -130,6 +121,14 @@ ul {
   transition: all 0.5s ease-in-out;
   transition-delay: 0.5s; }
 
+.badge {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  transition-delay: 0.5s; }
+
 .expBox {
   display: block;
   margin: 0 auto;
@@ -152,12 +151,12 @@ ul {
   transition: all 0.5s ease-in-out;
   transition-delay: 0.5s; }
 
-.skillBox {
-  -webkit-column-count: 4;
-  -moz-column-count: 4;
-  column-count: 4;
-  position: relative;
+.qualHeader {
   opacity: 0;
+  position: relative;
+  bottom: 2.6em;
+  display: block;
+  text-align: center;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -ms-transition: all 0.5s ease-in-out;
@@ -165,21 +164,39 @@ ul {
   transition: all 0.5s ease-in-out;
   transition-delay: 0.5s; }
 
-.skillBox li {
-  list-style-type: none;
-  display: inline-block; }
+.badge {
+  opacity: 0;
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  bottom: 200px;
+  width: 350px; }
 
-.skillset1 li {
-  font-size: 20px; }
+.skillBox {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  position: relative;
+  left: 6%;
+  opacity: 0;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -ms-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  transition-delay: .5s; }
 
-.skillset2 li {
-  font-size: 20px; }
+.skill1 {
+  position: relative;
+  bottom: 10px; }
 
-.skillset3 li {
-  font-size: 20px; }
+.skill2 {
+  position: relative;
+  left: 10%; }
 
-#experienceSection, #fourfront, #brio {
+#experienceSection, #brio {
   position: absolute;
+  bottom: 120px;
   margin-left: 10%;
   opacity: 0;
   -webkit-transition: all 0.5s ease-in-out;
@@ -188,6 +205,30 @@ ul {
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   transition-delay: 0.5s; }
+
+#fourfront {
+  margin-left: 10%;
+  opacity: 0;
+  position: absolute;
+  bottom: 170px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  transition-delay: 0.5s; }
+
+.tigerwoods {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  bottom: 300px;
+  width: 250px;
+  border-radius: 130px;
+  border: 4px solid black; }
 
 @-webkit-keyframes Gradient {
   0% {
@@ -216,6 +257,12 @@ ul {
     margin-bottom: 30px; }
 
   .position {
-    border-bottom: 0px solid white; } }
+    border-bottom: 0px solid white; }
+
+  .skillBox {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    position: relative; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -3,155 +3,199 @@
 <head>
 <title>Portfolio</title>
 
-  <link rel="stylesheet" href="sass/style.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <script src="script.js"></script>
+<link rel="stylesheet" href="sass/style.css"/>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 </head>
 <body>
+<img class="tigerwoods" src="https://scontent.fphl2-3.fna.fbcdn.net/v/t1.0-0/c2.0.366.366/p370x247/23519156_10155473549714442_1115844776997635106_n.jpg?oh=41c99b0b17250ae4b253f65c14e42aa6&oe=5B1008C2" alt="tiger woods himself" href="linkedin.com"/>
 <div id="container">
   <div class="resumeBox">
-  	<h1 class="name">Zachary Hitchens</h1>   
-  	<p class="contactInfo">Philadelphia, PA</p>
-  	<a href="https://github.com/thecleanmonk" class="contactInfo github">https://github.com/thecleanmonk</a>
-  	<div class="buttons">
-	  	<button href="#" id="experience-button">Experience</button>
-	  	<button href="#" id="skills-button">Skills</button>	
-	  	<button id="qualifications-button">Qualifications</button>	
-  	</div>
-  	<div class="expBox">
-	<h2 class="expSection">Experience</h2>
-	<h2 class="skillHeader">Skills</h2>
-  	<div id="experienceSection">
-	  <!--QA-->
-	  <h2 class="position">Quality Assurance Technician<span class="location">&nbsp;--&nbsp;Quattro Direct<br></span></h2>
-	  <p class="address">Berwyn PA</p>
-	  <p class="dates">August 2017 to Present</p>
-	  <ul>
-		  <li>Created a Quality Assurance plan with associated documentation for an organization of 50+ employees.</li>
-		  <li>Organized a QA process for Email development , Web development and all digital content.</li>
-		  <li>Automated numerous QA task&rsquo;s for Email Development and Web Development using a Selenium framework known as <a href="http://watir.com/">watir</a></li>
-		  <li>Developed In house emails for our Quarterly newsletter and other events using the Foundation Framework for Emails</li>
-		  <li>Created Test plan&rsquo;s for landing pages as well as Email Campaigns and lead the execution and resolution of test cases.</li>
-	  </ul>
-	</div>
-	 <!--Web Dev Section-->
-	<div id="fourfront">
-	  <h2 class="position">Contract Web Developer<span class="location">&nbsp;--&nbsp;FourFront LLC</span>
-	  </h2>
-	  <p class="address">East Falls PA</p>	  
-	  <p class="dates">April 2017 to June 2017</p>
-	  <ul>
-		  <li>Maintained numerous WordPress sites for clients and provided            troubleshooting / resolution for a multitude of issues.</li>
-		  <li>Developed custom WordPress widgets / plugins</li>
-		  <li>Created mobile responsive WordPress themes</li>
-		  <li>Worked with MySQL to query client production database on request for report or inquiries.</li>
-	  </ul>
-	 </div>
-	 <div id="brio"
-	  <!--Jr Software Developer-->
-	  <h2 class="position">Jr Software Developer<span class="location">&nbsp;--&nbsp;Brio Solutions</span>
-	  </h2>
-	  <p class="address">Ft Washington PA</p>	  
-	  <p class="dates">August 2016 to April 2017</p>
-	  <ul>
-		  <li>Created Front-End templates and Back-End for various clients including Highmark Health care and ASTM Standards Company</li>
-		  <li>Worked with numerous backend technologies to automate business processes and logic with SQL Server while maintaining use of the MVC Framework.</li>
-		  <li>Worked with a team of 6 other developers to troubleshoot project issues Daily</li>
-		  <li>Blogged Biweekly at http://www.briosolutions.com/blog</li>
-		  <li>Performed Weekly QA duties on all projects</li>
-	  </ul>
-	  </div>
+    <h1 class="name">Zachary Hitchens</h1>   
+    <p class="contactInfo">Philadelphia, PA</p>
+    <a href="https://github.com/thecleanmonk" target="_blank" class="contactInfo github">https://github.com/thecleanmonk</a>
+    <div class="buttons">
+      <button onclick="experienceButton();" href="#" id="experience-button">Experience</button>
+      <button onclick="skillsButton();" href="#" id="skills-button">Skills</button> 
+      <button onclick="qualsButton();" id="qualifications-button">Qualifications</button> 
+</div>
+  <div class="expBox">
+  <h2 class="expSection">Experience</h2>
+  <h2 class="skillHeader">Skills</h2>
+  <h2 class="qualHeader">Qualifications</h2>
+  <div id="experienceSection">
+    <!--QA-->
+    <h2 class="position">Quality Assurance Technician<span class="location">&nbsp;--&nbsp;Quattro Direct<br></span></h2>
+    <p class="address">Berwyn PA</p>
+    <p class="dates">August 2017 to Present</p>
+    <ul>
+      <li>Created a Quality Assurance plan with associated documentation for an organization of 50+ employees.</li>
+      <li>Organized a QA process for Email development , Web development and all digital content.</li>
+      <li>Automated numerous QA task&rsquo;s for Email Development and Web Development using a Selenium framework known as <a href="http://watir.com/">watir</a></li>
+      <li>Developed In house emails for our Quarterly newsletter and other events using the Foundation Framework for Emails</li>
+      <li>Created Test plan&rsquo;s for landing pages as well as Email Campaigns and lead the execution and resolution of test cases.</li>
+    </ul>
+  </div>
+   <!--Web Dev Section-->
+  <div id="fourfront">
+    <h2 class="position">Contract Web Developer<span class="location">&nbsp;--&nbsp;FourFront LLC</span>
+    </h2>
+    <p class="address">East Falls PA</p>    
+    <p class="dates">April 2017 to June 2017</p>
+    <ul>
+      <li>Maintained numerous WordPress sites for clients and provided            troubleshooting / resolution for a multitude of issues.</li>
+      <li>Developed custom WordPress widgets / plugins</li>
+      <li>Created mobile responsive WordPress themes</li>
+      <li>Worked with MySQL to query client production database on request for report or inquiries.</li>
+    </ul>
+   </div>
+   <div id="brio"
+    <!--Jr Software Developer-->
+    <h2 class="position">Jr Software Developer<span class="location">&nbsp;--&nbsp;Brio Solutions</span>
+    </h2>
+    <p class="address">Ft Washington PA</p>   
+    <p class="dates">August 2016 to April 2017</p>
+    <ul>
+      <li>Created Front-End templates and Back-End for various clients including Highmark Health care and ASTM Standards Company</li>
+      <li>Worked with numerous backend technologies to automate business processes and logic with SQL Server while maintaining use of the MVC Framework.</li>
+      <li>Worked with a team of 6 other developers to troubleshoot project issues Daily</li>
+      <li>Blogged Biweekly at http://www.briosolutions.com/blog</li>
+      <li>Performed Weekly QA duties on all projects</li>
+    </ul>
+    </div>
   </div> 
   <div class="skillBox">
-  	<ul class="skillset1">
-  		<li>Email Development</li>
-   		<li>Front End Development</li>
-  		<li>Quality Assurance</li>
-  		<li>QA Automation</li>
-  		<li>Linux Terminal</li>
-  		<li>C#</li>
-  	</ul>
-  	<ul class="skillset2">
-  		<li>Python</li>
-   		<li>PHP</li>
-  		<li>JavaScript</li>
-  		<li>CSS/Sass/less</li>
-  		<li>Ruby</li>
-  		<li>React.JS</li>
-  	</ul>
-  	  	<ul class="skillset3">
-  		<li>NodeJS</li>
-   		<li>Foundation 6</li>
-  		<li>Bootstrap</li>
-  		<li>WordPress</li>
-  		<li>ASP.NET 4.5</li>
-  		<li>Watir</li>
-  	</ul>
+    <div class="skill1">
+      <p>Email Development</p>
+      <p>Front End Development</p>
+      <p>Quality Assurance</p>
+      <p>QA Automation</p>
+      <p>Linux Terminal</p>
+      <p>C#</p>
+    </div>
+    <div class="skill2">
+      <p>Python</p>
+      <p>PHP</p>
+      <p>JavaScript</p>
+      <p>CSS/Sass/less</p>
+      <p>Ruby</p>
+      <p>React.JS</p>
+    </div>
+    <div class="skill3">
+      <p>NodeJS</p>
+      <p>Foundation 6</p>
+      <p>Bootstrap</p>
+      <p>WordPress</p>
+      <p>ASP.NET 4.5</p>
+      <p>Watir</p>
+    </div>
+    </ul>
+  </div>
+  <div id="hubspot">
+    <!-- Begin: HubSpot Academy - HubSpot Design Badge -->
+<div class='academy-badge'>
+<a target="_blank" href='http://academy.hubspot.com/certification' title='HubSpot Design'>
+<img class="badge" src='http://api.hubapi.com/academy/v1/badge-image/4DE0EF6E6A5E47BB84BFE7A5E75FCDD2' />
+</a>
+</div>
+<!-- End: HubSpot Academy - HubSpot Design Badge -->
+  </div>
   </div>
   </div>
 </div>
 </body>
 </html>
-<script>
 
-// change all of these to import classes onclick rather than applying direct styles 
-// also switch these if else statements to swtich
-	var count = 0;
- 	$('#experience-button').on('click', function() {
- 	if(iter > 0){
- 		iter = 0;
- 	}
+<script>
+  var count = 0;
+    $('#experience-button').on('click', function() {
+    if(iter > 0 || sum > 0){
+        iter = 0;
+    sum = 0;
+    }
     if ($('#experienceSection').css('opacity') == 0) {
         $('#experienceSection').css('opacity', 1);
         $('.expSection').css('opacity', 1);
-        $('#experience-button').addClass('addGradientExp');
         $('.skillBox').css('opacity', 0); 
-        $('.skillHeader').css('opacity', 0); 
+        $('.skillHeader').css('opacity', 0);
+        $('.badge').css('opacity', 0);
+        $('.qualHeader').css('opacity', 0);      
     }
 
     if(count == 1){
-    	$('#fourfront').css('opacity', 1);
-    	$('#experienceSection').css('opacity', 0);
+        $('#fourfront').css('opacity', 1);
+        $('#experienceSection').css('opacity', 0);
     }
     else if(count == 2){
-    	$('#fourfront').css('opacity', 0);    
-    	$('#experienceSection').css('opacity', 0);
-    	$('#brio').css('opacity', 1);
+        $('#fourfront').css('opacity', 0);    
+        $('#experienceSection').css('opacity', 0);
+        $('#brio').css('opacity', 1);
     }
     else if(count == 3){
-    	$('#brio').css('opacity', 0);
-    	count = 0;
+        $('#brio').css('opacity', 0);
+        count = 0;
     }
     count++;
 });
- </script>
- <script>
-	var iter = 0;
- 	$('#skills-button').on('click', function() {
- 	if(count > 0){
- 		count = 0;
- 	}
-    if ($('.expSection').css('opacity') == 1) {
-    	$('#expBox').css('opacity', 0);    
-        $('#skills-button').addClass('addGradientSkills');
-        $('#fourfront').css('opacity', 0);    
-    	$('#experienceSection').css('opacity', 0);
-    	$('#brio').css('opacity', 0);
-    	$('.expSection').css('opacity', 0); 
+</script>
+<script>
+  var iter = 0;
+    $('#skills-button').on('click', function() {
+    if(count > 0 || sum > 0){
+    sum = 0;
+        count = 0;
     }
-    if(iter == 0){
-    	$('.skillBox').css('opacity', 1); 
-    	$('.skillHeader').css('opacity', 1); 
+  iter++;
 
-    	// change this so that on the first click a fade out
-    	// fade in is applied
+    if(iter == 1){
+        $('.skillBox').css('opacity', 1); 
+        $('.skillHeader').css('opacity', 1); 
+      $('#expBox').css('opacity', 0);    
+      $('#fourfront').css('opacity', 0);    
+      $('#experienceSection').css('opacity', 0);
+      $('#brio').css('opacity', 0);
+      $('.expSection').css('opacity', 0); 
+      $('.badge').css('opacity', 0); 
+      $('.qualHeader').css('opacity', 0);   
+        // change this so that on the first click a fade out
+        // fade in is applied
     }
-    else if(iter == 1){
-
+    if(iter > 1){
+      iter = 0;
     }
-    else if(iter == 2){
-    	iter = 0;
-    }
-    iter++;
 });
- </script>
+
+</script>
+<script>
+  var sum = 0;
+  $('#qualifications-button').on('click', function() {
+  if(count > 0 || iter > 0){
+    count = 0;
+    iter = 0;
+  }
+  sum++;
+    if ($('#hubspot').css('opacity') == 1) {
+      $('#expBox').css('opacity', 0);    
+      $('#fourfront').css('opacity', 0);    
+      $('#experienceSection').css('opacity', 0);
+      $('#brio').css('opacity', 0);
+      $('.expSection').css('opacity', 0); 
+      $('.skillHeader').css('opacity', 0); 
+
+    }
+    if(sum == 1){
+      $('.badge').css('opacity', 1); 
+      $('.qualHeader').css('opacity', 1); 
+      $('.skillHeader').css('opacity', 0);
+      $('.skillBox').css('opacity', 0);
+      sum++;
+
+      // change this so that on the first click a fade out
+      // fade in is applied
+    }
+    if(sum > 1){
+      sum = 0;
+    }
+    });
+
+</script>
